@@ -1,1 +1,24 @@
-/target
+# Результаты сборки (САМОЕ ВАЖНОЕ)
+/target/
+debug/
+target
+
+# Файлы Rust-инструментов
+**/*.rs.bk
+Cargo.lock
+
+# IDE (RustRover, VSCode, IDEA)
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Файлы отладки и логов
+*.pdb
+*.log
+*.prof
+*.profraw
+
+# Временные файлы
+*.tmp
+*.swp
